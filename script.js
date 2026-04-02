@@ -1,4 +1,4 @@
-// Gestão de Estado
+        // Gestão de Estado
         let currentStep = 1;
         const totalSteps = 3;
         let selectedCategory = '';
@@ -169,7 +169,6 @@
             setTimeout(() => div.remove(), 3000);
         }
 
-        // Dados iniciais para teste
         window.onload = () => {
             const list = getDenuncias();
             if (list.length === 0) {
@@ -183,6 +182,5 @@
                     date: '10/05/2026'
                 };
                 saveDenuncia(demo);
-                console.log("Protocolo de teste: DEMO1234");
             }
         };
